@@ -1,0 +1,18 @@
+rnfe - generate default arrow function for RN component;
+
+NativeWind - https://www.nativewind.dev/getting-started/expo-router (tailwind for RN);
+
+image.d.ts - declaration type for export images from consts file;
+
+<Stack screenOptions={{headerShown: false}}/> - disable default header for screens;
+
+Fonts - included in 3 places:
+- app.json
+- _layout.tsx
+- tailwind.config.js (optionally)
+
+Container - better to use <SafeAreaView /> (for avoiding "islands" in iPhone, etc.) with <ScrollView /> for avoiding scroll limits for smaller screens
+
+Button -> <TouchebleOpacity />
+
+<Image source={...} /> , not <Image src={...} /> 
