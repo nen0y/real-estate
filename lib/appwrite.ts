@@ -29,8 +29,6 @@ export async function signInWithGoogle() {
       redirectURI
     );
 
-    console.log(response);
-
     if (!response) throw new Error("Failed to create OAuth2 session");
 
     const browserResult = await openAuthSessionAsync(
